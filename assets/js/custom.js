@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 
     $('#carousel-slider').carousel({
-        interval: 4000 //TIME IN MILLI SECONDS originally(2000)
+        interval: 6000 //TIME IN MILLI SECONDS originally(2000)
     });
 
 
@@ -28,8 +28,12 @@ $(document).ready(function() {
     ======================================*/
     $.vegas('slideshow', {
         backgrounds: [
-            { src: 'assets/img/1.jpg', fade: 1000, delay: 9000 },
-            { src: 'assets/img/2.jpg', fade: 1000, delay: 9000 },
+            { src: 'assets/img/1.jpg', fade: 2000, delay: 9000 },
+            { src: 'assets/img/2.jpg', fade: 2000, delay: 9000 },
+            { src: 'assets/img/3.jpg', fade: 2000, delay: 9000 },
+            { src: 'assets/img/4.jpg', fade: 2000, delay: 9000 },
+            { src: 'assets/img/5.jpg', fade: 2000, delay: 9000 },
+            { src: 'assets/img/6.jpg', fade: 2000, delay: 9000 },
         ]
     })('overlay', {
         /** SLIDESHOW OVERLAY IMAGE **/
